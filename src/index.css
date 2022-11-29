@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1 
+  }
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Pacifico&family=Poppins:wght@200&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+
+
+
+@layer base{
+  body { 
+    @apply font-[DM+serif]
+    
+  }
+  li {
+    @apply p-4 font-bold text-xl
+  }
+  h1 {
+    @apply text-3xl font-bold
+  }
+}
+}
